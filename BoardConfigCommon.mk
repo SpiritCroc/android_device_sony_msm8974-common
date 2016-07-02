@@ -93,6 +93,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 TARGET_POWERHAL_VARIANT := qcom
 CM_POWERHAL_EXTENSION := qcom
 
+# Include build helpers for QCOM proprietary
+-include vendor/qcom/proprietary/common/build/proprietary-build.mk
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
