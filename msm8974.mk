@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
 	android.hardware.graphics.allocator@2.0-impl \
 	android.hardware.graphics.mapper@2.0-impl \
 	android.hardware.graphics.composer@2.1-impl \
+	android.hardware.renderscript@1.0-impl \
     hwcomposer.msm8974 \
     gralloc.msm8974 \
     copybit.msm8974 \
