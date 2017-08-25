@@ -158,6 +158,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     thermanager
 
+# Vibrator
+PRODUCT_PACKAGES += \
+	android.hardware.vibrator@1.0-impl
+
 # Wifi
 PRODUCT_PACKAGES += \
     libwpa_client \
