@@ -19,6 +19,8 @@ COMMON_PATH := device/sony/msm8974-common
 
 # Audio
 PRODUCT_PACKAGES += \
+	android.hardware.audio@2.0-impl \
+	android.hardware.audio.effect@2.0-impl \
     audiod \
     audio.a2dp.default \
     audio.primary.msm8974 \
