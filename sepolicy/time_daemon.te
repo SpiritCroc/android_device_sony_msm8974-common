@@ -1,1 +1,2 @@
 qmux_socket(time_daemon);
+allowxperm time_daemon self:socket ioctl msm_sock_ipc_ioctls;

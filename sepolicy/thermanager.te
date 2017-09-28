@@ -15,3 +15,4 @@ allow thermanager sysfs:file { open read };
 allow thermanager sysfs_battery_supply:dir search;
 allow thermanager sysfs_battery_supply:file { open read write };
 
+allowxperm thermanager self:socket ioctl msm_sock_ipc_ioctls;

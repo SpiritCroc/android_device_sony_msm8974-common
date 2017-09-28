@@ -1,4 +1,4 @@
 # Connect to /dev/socket/tad
 unix_socket_connect(sensors, tad, tad)
 allow sensors ta_prop:file { getattr read open };
-
+allowxperm sensors self:socket ioctl msm_sock_ipc_ioctls;
