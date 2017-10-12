@@ -114,6 +114,3 @@ TARGET_RIL_VARIANT := caf
 
 #BOARD_SEPOLICY_DIRS += \
 #    device/sony/msm8974-common/sepolicy
-
-# Time
-BOARD_USES_QC_TIME_SERVICES := true
